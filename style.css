@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(1.jpg);
+}
+.main{
+    display: inline-block;
+}
+.navber{
+    display: flex;
+}
+.logo{
+    margin-top: 42px;
+    color: orange;
+    font-size: 35px;
+    margin-left: 69px;
+    display: inline-block;
+}
+.icon{
+    display: flex;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 27px;
+    margin-left: 238px;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 591px;
+    margin-top: 45px;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+    border: 1px solid orange;
+    color: white;
+    
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn{
+    width: 26%;
+    height: 42px;
+    background-color:orange;
+    border: 2px solid orange;
+    color: white;
+    border-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.contaner{
+    width: 1200px;
+    height: auto;
+    margin: 12px ;
+    color: white;
+    position: relative;
+}
+.contaner .pr{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.contaner h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 39px;
+    padding-left: 44px;
+    margin-top: 9%;
+    letter-spacing: 3.2px;
+}
+.contaner .cn{
+    width: 160px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.contaner .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease-in-out;
+}
+.cn:hover{
+    background-color: #fff;
+}
+.contaner span{
+    color: orange;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height:400px ;
+    background: linear-gradient( to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px ;
+    left: 870px;
+    border-radius: 10px;
+    margin-left: 120px;
+    padding: 30px;
+}
+.form h2{
+    font-family:  sans-serif;
+    text-align: center;
+    width: 220px;
+    color: orange;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.font input:focus{
+outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background-color:  orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background-color: #fff;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold ;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+
+}
+.liw{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: orange;
+}
